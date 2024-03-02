@@ -165,7 +165,7 @@ const Section5 = () => {
           <div className="s7left">
             <img className='s7img' src={Logo2} alt="" />
             <p className='s7head'>Whitepaper</p>
-            <a href="/whitepaper.pdf" target='_blank' className='rbtn'>
+            <a href="#" target='_blank' className='rbtn'>
 
               <span className="text">Download</span>
             </a>
@@ -173,7 +173,7 @@ const Section5 = () => {
           <div className="s7right">
             <img className='s7img' src={Logo2} alt="" />
             <p className='s7head'>Presale</p>
-            <a href='https://presale.thecryptofactory.io/' className='rbtn'>
+            <a href='#' className='rbtn'>
 
               <span className="text">Buy Token</span>
             </a>
