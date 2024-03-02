@@ -1,6 +1,6 @@
 
 import '../../styles/Section5.css'
-import pie from '../../assets/pie.svg'
+import pie from '../../assets/pie.png'
 import sign1 from '../../assets/dot.svg'
 import sign2 from '../../assets/dot-01.svg'
 import sign3 from '../../assets/dot-1.svg'
