@@ -1,0 +1,97 @@
+.s3main {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+  justify-content: start;
+  align-items: center;
+  gap: 60px;
+  overflow-x: hidden;
+}
+.s3usecase {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.s3usecase2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.s3head {
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 80% */
+}
+
+.s3title {
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px; /* 80% */
+}
+.s3para {
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 181.25% */
+}
+.imgmain {
+  clip-path: polygon(35% 0%, 100.1% 0%, 100% 100%, 0% 100%);
+}
+.s3left2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  text-align: right !important;
+}
+.s3left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .s3usecase {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .s3usecase2 {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .s3head {
+    font-size: 40px;
+  }
+  .s3main {
+    padding: 20px;
+  }
+  .s3para {
+    font-size: 12px;
+    line-height: 24px; /* 181.25% */
+  }
+  .s3img {
+    width: 100%;
+    height: 100%;
+  }
+  .s3img2 {
+    width: 100%;
+    height: 100%;
+  }
+}
