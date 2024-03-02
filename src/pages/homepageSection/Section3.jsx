@@ -8,14 +8,51 @@ import Uc4 from '../../assets/u4.png'
 import Uc5 from '../../assets/u5.png'
 import Uc6 from '../../assets/u6.png'
 import Uc7 from '../../assets/u7.png'
+import { motion } from "framer-motion"
+
 const Section3 = () => {
+
+  const slideLtR = {
+    hidden: {
+      x: -100,
+      // opacity: 0
+    },
+    visible: {
+      x: 0,
+      // opacity: 1,
+      transition: {
+        ease: 'easeInOut',
+        duration: 1,
+      },
+    }
+  }
+  const slideRtL = {
+    hidden: {
+      x: 100,
+      // opacity: 0
+    },
+    visible: {
+      x: 0,
+      // opacity: 1,
+      transition: {
+        ease: 'easeInOut',
+        duration: 1,
+      },
+    }
+  }
+
   return (
     <>
       <div className="container s3main" id="usecase">
         <p className="s3head">
           USECASE
         </p>
-        <div className="s3usecase" >
+        <motion.div className="s3usecase"
+          initial="hidden"
+          whileInView="visible"
+          variants={slideRtL}
+
+        >
           <div className="s3left">
             <p className="s3title">
               FAS Coin Exchange
@@ -27,9 +64,14 @@ const Section3 = () => {
           <div className="s3right">
             <img src={Uc1} className='s3img imgmain' alt="" />
           </div>
-        </div>
+        </motion.div>
 
-        <div className="s3usecase2" >
+        <motion.div
+          initial='hidden'
+          whileInView="visible"
+          variants={slideLtR}
+
+          className="s3usecase2" >
           <div className="s3left2">
             <p className="s3title">
               FAS Coin as a Mobile App
@@ -43,9 +85,14 @@ const Section3 = () => {
           <div className="s3right2">
             <img src={Uc2} className='s3img2' alt="" />
           </div>
-        </div>
+        </motion.div>
 
-        <div className="s3usecase" >
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          variants={slideRtL}
+
+          className="s3usecase" >
           <div className="s3left">
             <p className="s3title">
               Gaming Platform
@@ -61,9 +108,14 @@ const Section3 = () => {
           <div className="s3right">
             <img src={Uc3} className='s3img' alt="" />
           </div>
-        </div>
+        </motion.div>
 
-        <div className="s3usecase2" >
+        <motion.div
+          initial='hidden'
+          whileInView="visible"
+          variants={slideLtR}
+
+          className="s3usecase2" >
           <div className="s3left2">
             <p className="s3title">
               NFT Marketplace
@@ -77,9 +129,14 @@ const Section3 = () => {
           <div className="s3right2">
             <img src={Uc4} className='s3img2' alt="" />
           </div>
-        </div>
+        </motion.div>
 
-        <div className="s3usecase" >
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          variants={slideRtL}
+
+          className="s3usecase" >
           <div className="s3left">
             <p className="s3title">
               FAS Crypto Wallet
@@ -95,9 +152,14 @@ const Section3 = () => {
           <div className="s3right">
             <img src={Uc5} className='s3img' alt="" />
           </div>
-        </div>
+        </motion.div>
 
-        <div className="s3usecase2" >
+        <motion.div
+          initial='hidden'
+          whileInView="visible"
+          variants={slideLtR}
+
+          className="s3usecase2" >
           <div className="s3left2">
             <p className="s3title">
               FAS Utility Services
@@ -111,9 +173,14 @@ const Section3 = () => {
           <div className="s3right2">
             <img src={Uc6} className='s3img2' alt="" />
           </div>
-        </div>
+        </motion.div>
 
-        <div className="s3usecase" >
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          variants={slideRtL}
+
+          className="s3usecase" >
           <div className="s3left">
             <p className="s3title">
               FAS Own Blockchain
@@ -129,7 +196,7 @@ const Section3 = () => {
           <div className="s3right">
             <img src={Uc7} className='s3img' alt="" />
           </div>
-        </div>
+        </motion.div>
 
 
       </div>
