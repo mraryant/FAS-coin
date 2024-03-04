@@ -8,6 +8,7 @@ import Section4 from './homepageSection/Section4'
 import Section5 from './homepageSection/Section5'
 import Footer from '../components/Footer'
 import Section6 from './homepageSection/Section6'
+import PresaleSchedule from './homepageSection/PresaleSchedule'
 // import Usecase from './homepageSection/Usecase'
 
 const Homepage = () => {
@@ -20,8 +21,8 @@ const Homepage = () => {
       <Section3 />
       <Section4 />
       <Section6 />
+      <PresaleSchedule />
       <Section5 />
-
       <Footer />
     </>
   )

@@ -9,6 +9,7 @@ import sign5 from '../../assets/dot-3.svg'
 
 // import Logo2 from '../../assets/FAS_logo/FAS_logo_wht.png'
 import Logo2 from '../../assets/FAS_logo/icon1.png'
+import presale from '../../assets/refral.png'
 
 import { useState } from 'react'
 import Copy from "../../assets/copy.gif"
@@ -106,7 +107,7 @@ const Section5 = () => {
                 <p>Symbol</p>
               </div>
               <div className="div2">
-                <p>FAS  </p>
+                <p>F</p>
               </div>
             </div>
           </div>
@@ -124,7 +125,7 @@ const Section5 = () => {
                 <p>Total Supply</p>
               </div>
               <div className="div2">
-                <p>200 Cr.</p>
+                <p>9 Billion</p>
               </div>
             </div>
           </div>
@@ -171,7 +172,7 @@ const Section5 = () => {
             </a>
           </div>
           <div className="s7right">
-            <img className='s7img' src={Logo2} alt="" />
+            <img className='s7img' src={presale} alt="" />
             <p className='s7head'>Presale</p>
             <a href='#' className='rbtn'>
 

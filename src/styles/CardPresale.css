@@ -1,0 +1,67 @@
+.price-card > button {
+  /* background-color: #647FE5; */
+  padding: 10px;
+  border: 3px solid #647fe5;
+  clip-path: polygon(25% 0%, 75% 0%, 99% 70%, 100% 100%, 0 100%, 1% 70%);
+}
+.price-card {
+  background: url("../assets/FAS_logo/cardbg.jpg") center center no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  min-height: 350px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+  /* background-color: white; */
+  color: white;
+  border: 3px solid #647fe5;
+  border-radius: 15px;
+}
+
+.price-card-header {
+  text-align: center;
+}
+
+.price-card-header > h3 {
+  background-color: #647fe5;
+  padding: 10px;
+
+  clip-path: polygon(
+    14% 25%,
+    0 0,
+    19% 21%,
+    78% 21%,
+    100% 0,
+    83% 25%,
+    81% 78%,
+    100% 100%,
+    76% 83%,
+    19% 83%,
+    0 100%,
+    15% 78%
+  );
+}
+
+.price-card-features > ul {
+  padding: 0px;
+}
+.price-card-features {
+  list-style-type: none;
+  padding: 0;
+  /* text-align: center; */
+}
+#features {
+  display: flex;
+  justify-content: center;
+}
+#features > li {
+  font-size: larger;
+  text-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
+
+/* presale schedule page css */
