@@ -23,6 +23,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .s5center {
   width: 33.33%;
   display: flex;
@@ -167,6 +168,9 @@
   }
   .s5center {
     width: 90%;
+  }
+  .s5center > img {
+    width: 100%;
   }
   .s5right {
     width: 80%;
