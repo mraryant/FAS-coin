@@ -1,21 +1,26 @@
-.topnav{
-    color: white;
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5887605042016807) 39%, rgba(0,0,0,0.8380602240896359) 77%, rgba(0,0,0,1) 100%);
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+.topnav {
+  color: white;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5887605042016807) 39%,
+    rgba(0, 0, 0, 0.8380602240896359) 77%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
-.navfluid{
-    padding:0px 60px;
+.navfluid {
+  padding: 0px 60px;
 }
-.ng{
-   display: flex;
-   justify-content: end; 
-   color:white
-  
+.ng {
+  display: flex;
+  justify-content: end;
+  color: white;
 }
-.ngflex{
+.ngflex {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -24,38 +29,38 @@
 
 .rbtn {
   align-items: center;
-  background-image: linear-gradient(144deg,#4083ff, #5B42F3 50%,#00DDEB);
+  background-image: linear-gradient(144deg, #4083ff, #5b42f3 50%, #00ddeb);
   border: 0;
   border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   font-family: Manrope;
-  
+
   font-size: 14px;
   justify-content: center;
   line-height: 1em;
   max-width: 100%;
   font-weight: 600;
   min-width: 140px;
-padding: 2px;
+  padding: 2px;
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
-  transition: all .3s;
- }
- 
- .rbtn:active,
- .rbtn:hover {
+  transition: all 0.3s;
+}
+
+.rbtn:active,
+.rbtn:hover {
   outline: 0;
   color: white;
- }
- 
- .rbtn span {
+}
+
+.rbtn span {
   background-color: rgb(5, 6, 45);
   padding: 12px 22px;
   border-radius: 6px;
@@ -63,33 +68,32 @@ padding: 2px;
   height: 100%;
   transition: 300ms;
   text-align: center;
- }
- 
- .rbtn:hover span {
+}
+
+.rbtn:hover span {
   background: none;
   color: white;
- }
- 
- .rbtn:active {
+}
+
+.rbtn:active {
   transform: scale(0.9);
- }
+}
+.nav-link {
+  color: white;
+}
 
-
- 
 @media (max-width: 1000px) {
-    
-  .ngflex{
+  .ngflex {
     flex-direction: column;
     gap: 10px;
     justify-content: center;
     align-items: center;
     margin-right: 0px;
-    
   }
-  .ng{
+  .ng {
     justify-content: center;
   }
-  .navfluid{
+  .navfluid {
     padding: 10px 30px;
   }
 }

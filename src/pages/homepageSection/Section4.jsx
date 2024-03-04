@@ -85,12 +85,9 @@ const Section4 = () => {
                   whileInView="visible"
                   variants={slideVarient}
                   className="s4card">
-                  <img src={s4icon3} alt="" />
+                  <img style={{ height: "50px", width: "50px" }} src={s4icon3} alt="" />
                   <p className='s4cardhead mb-0 '>Step 4</p>
-                  <p className='s4cardpara'>Now, you can connect this
-                    wallet to Uniswap and use the
-                    ETH or USDT you have to buy
-                    El Hippo tokens on Uniswap.</p>
+                  <p className='s4cardpara'>Now, You can connect this wallet to Metamask And Use The USDT You Have To Buy FAS Token On Metamask.</p>
                 </motion.div>
               </div>
             </div>

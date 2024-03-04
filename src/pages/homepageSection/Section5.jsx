@@ -172,7 +172,8 @@ const Section5 = () => {
             </a>
           </div>
           <div className="s7right">
-            <img className='s7img' src={presale} alt="" />
+            <img className='s7img1' src={presale} alt="" />
+            <h5 className=" text-white ">Bonus on each Referral</h5>
             <p className='s7head'>Presale</p>
             <a href='#' className='rbtn'>
 

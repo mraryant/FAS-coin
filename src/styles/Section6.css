@@ -125,6 +125,11 @@
   height: 160px;
   flex-shrink: 0;
 }
+.s7img1 {
+  /* width: 264px; */
+  height: 200px;
+  flex-shrink: 0;
+}
 .s7right {
   width: 50%;
   height: 355px;
@@ -135,7 +140,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 1px;
 }
 .s7left:hover {
   transform: scale(0.99);
