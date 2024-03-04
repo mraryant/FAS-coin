@@ -13,7 +13,7 @@ const Section2 = () => {
         <div id="ref-left">
           <div>
             <h1>Refer And Earn</h1>
-            <p>Buy TCF Token and Get 5% USDT on your Referral Address.</p>
+            <p>Buy FAS Coin and Get 10% USDT on your Referral Address.</p>
           </div>
         </div>
         <div id="ref-right">
