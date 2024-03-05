@@ -44,7 +44,7 @@ const Section5 = () => {
         <div className="s5main">
           <div className="s5left">
             <p style={{ marginBottom: 0, color: "white", fontSize: 18, fontWeight: 400, }}>
-              FAS {"Coin's"} distribution strategy ensures a balanced allocation of tokens, incentivizing diverse stakeholders and promoting ecosystem growth, stability, and long-term sustainability. This intricately designed model caters to varied participant needs, forming a robust foundation for FAS {"Coin's"} enduring success.</p>
+              In the FAS ecosystem, the native utility coin, FAS Coin (F), plays a pivotal role in facilitating seamless transactions, fostering governance, and powering various features within the network. A crucial aspect of the FAS Coin tokenomics is its intrinsic connection to the broader functionalities and sustainability of the project.</p>
 
           </div>
           <div className="s5center">

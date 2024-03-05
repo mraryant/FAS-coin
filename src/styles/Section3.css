@@ -67,7 +67,7 @@
   align-items: start;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 835px) {
   .s3usecase {
     flex-direction: column-reverse;
     gap: 30px;

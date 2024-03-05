@@ -22,10 +22,10 @@ const Section1 = () => {
               <h1 className='heading text-focus-in'>Welcome To <br /></h1>
 
               <div className='headdiv'>
-                <h1 className='FAS streched '>  FAAS </h1>
+                <h1 className='FAS streched '>FAS</h1>
                 <h2 className='coin'>COIN</h2>
               </div>
-              <p className='s1para' >FAS Coin, led by The FAS Coin Initiative (TFCI), pioneers manufacturing transformation through decentralization and blockchain. With its dedicated blockchain, FAS Coin ensures secure transactions, user-friendly experiences, and utility services, marking a new era of efficiency and decentralized innovation in the industry.</p>
+              <p className='s1para' >FAS Coin is a revolutionary digital asset on the BEP-20 network, bridging blockchain and financial accounting principles to create a transparent and standardized financial ecosystem in the crypto space. Addressing challenges of reporting and transparency, FAS Coin integrates established accounting standards into the blockchain, ensuring accuracy and paving the way for broader cryptocurrency acceptance in mainstream finance.</p>
               <div className='know'>
 
                 <a href="#" className='rbtn'>

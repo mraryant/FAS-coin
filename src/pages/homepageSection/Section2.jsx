@@ -47,8 +47,7 @@ const Section2 = () => {
             <p className='s2small'>About Us</p>
             <p className="s2heading">Explore Our Company</p>
             <p className="s2desc">
-
-              At FAS Coin, a trailblazing initiative by The FAS Coin Initiative (TFCI), {"we're "}dedicated to revolutionizing manufacturing through decentralization and blockchain technology. Our dedicated blockchain ensures secure and transparent transactions, while our user-friendly mobile app and gamified platform engage the community. As a utility token, FAS Coin facilitates essential services, marking a new era of efficiency and decentralized innovation in the manufacturing industry. Join us as we redefine the future of manufacturing.
+              Cryptocurrencies, since {"Bitcoin's"} inception in 2009, faced challenges in financial reporting and accountability due to the absence of standardized frameworks. FAS Coin, or Financial Accounting Standards Coin, emerged as a solution, evolving to address historical issues in transparency and accountability. Integrating established financial principles with blockchain technology, FAS Coin establishes a transparent, auditable financial framework, fostering a culture of responsible practices within the cryptocurrency community and bridging the gap between traditional finance and blockchain innovation.
             </p>
           </div>
         </div>
