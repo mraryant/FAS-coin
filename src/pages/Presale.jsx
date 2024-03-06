@@ -72,7 +72,7 @@ const Presale = () => {
                             <h2>Early access to FAS Coin</h2>
                         </div>
                         <div id="inner-cards">
-                            <div className="d-flex gap-2">
+                            <div className="d-flex gap-3">
 
                                 <div className="card-1">
                                     <h6>Pre Lonch price</h6>
@@ -84,7 +84,7 @@ const Presale = () => {
                                 </div>
                             </div>
 
-                            <div className="d-flex gap-2">
+                            <div className="d-flex gap-3">
                                 <div className="card-1">
                                     <h6> 1 dolor price</h6>
                                     <p>₹ 83.268</p>

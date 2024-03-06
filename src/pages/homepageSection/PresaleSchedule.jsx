@@ -24,29 +24,43 @@ const PresaleSchedule = () => {
                         width: "100%",
                         display: 'flex',
                         flexWrap: "wrap",
+                        justifyContent: "center",
                         gap: "40px",
-                        justifyContent: "space-evenly",
+
                     }}
                 >
 
                     <CardPresale
                         title="FAS Coin"
                         round="Round 1"
-                        duration="27 Feb - 4 March "
+                        duration="27 Feb - 10 March "
                         price="Price : 0.0011$"
 
                     />
                     <CardPresale
                         title="FAS Coin"
                         round="Round 2"
-                        duration="5 March - 12 march"
+                        duration="11 mar - 17 Mar"
                         price="Price : 0.0033$"
                     />
                     <CardPresale
                         title="FAS Coin"
                         round="Round 3"
-                        duration="13 March - 20 March "
+                        duration="18 Mar - 24 Mar  "
                         price="Price : 0.0045$"
+                    />
+
+                    <CardPresale
+                        title="FAS Coin"
+                        round="Round 4"
+                        duration="25 Mar - 31 Mar "
+                        price="Price :  0.0075$"
+                    />
+                    <CardPresale
+                        title="FAS Coin"
+                        round="Round 5"
+                        duration=""
+                        price="Listing..."
                     />
                 </div>
 

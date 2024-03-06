@@ -32,7 +32,7 @@ const Section4 = () => {
         </div>
         <div className="s4main">
           <div className="s4para">
-            <p >Buying FAS coin couldn’t be easier. Here’s how to buy FAS coin with Ethereum using Uniswap, Trust Wallet, or Metamask. If you don’t have any Ethereum, simply download Trust Wallet and buy some instantly with a debit or credit card!
+            <p >FAS Coin, the innovative digital asset with a promising future, is now within your reach. Follow these simple steps to acquire FAS Coin and become part of a revolutionary blockchain ecosystem.
             </p>
           </div>
           <div className="s4section">
@@ -47,9 +47,8 @@ const Section4 = () => {
                   className="s4card">
                   <img src={s4icon4} alt="" />
                   <p className='s4cardhead mb-0 '>Step 1</p>
-                  <p className='s4cardpara'>Download FAS   Wallet and set
-                    up a wallet by following the
-                    instructions.</p>
+                  <p className='s4cardpara'>
+                    Visit Our website FASCOIN.IO & Click On Buy Token Button</p>
                 </motion.div>
 
                 <motion.div
@@ -59,11 +58,7 @@ const Section4 = () => {
                   className="s4card">
                   <img src={s4icon1} alt="" />
                   <p className='s4cardhead mb-0 '>Step 2</p>
-                  <p className='s4cardpara'>You can buy ETH or USDT by
-                    selecting the currency you
-                    want to buy, tapping “Buy,” and
-                    making a purchase with your
-                    debit or credit card.</p>
+                  <p className='s4cardpara'>Now, You can connect your wallet to Metamask And Use The USDT You Have To Buy FAS Token On Metamask.</p>
                 </motion.div>
 
               </div>
@@ -76,8 +71,7 @@ const Section4 = () => {
                   className="s4card">
                   <img src={s4icon2} alt="" />
                   <p className='s4cardhead mb-0 '>Step 3</p>
-                  <p className='s4cardpara'>The funds are now in your
-                    wallet!</p>
+                  <p className='s4cardpara'>Choose Number Of USDT {'"APPROVE"'} </p>
                 </motion.div>
 
                 <motion.div
@@ -87,7 +81,7 @@ const Section4 = () => {
                   className="s4card">
                   <img style={{ height: "50px", width: "50px" }} src={s4icon3} alt="" />
                   <p className='s4cardhead mb-0 '>Step 4</p>
-                  <p className='s4cardpara'>Now, You can connect this wallet to Metamask And Use The USDT You Have To Buy FAS Token On Metamask.</p>
+                  <p className='s4cardpara'>Choose Number Of USDT {'"BUY"'} & Checking TRANSACTIONS</p>
                 </motion.div>
               </div>
             </div>
