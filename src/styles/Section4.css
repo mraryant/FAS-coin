@@ -58,8 +58,8 @@
   gap: 20px;
 }
 .s4card {
-  width: 290px;
-  height: 250px;
+  width: 400px;
+  height: 350px;
   border-radius: 24px;
   background: #00141f;
   display: flex;
@@ -105,7 +105,7 @@
   flex-direction: row;
   justify-content: space-evenly;
 }
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .s4section {
     display: flex;
     gap: 10px;
@@ -124,7 +124,7 @@
   }
 }
 
-@media (max-width: 621px) {
+@media (max-width: 826px) {
   .s4cardmain {
     flex-direction: column;
     justify-content: center;
