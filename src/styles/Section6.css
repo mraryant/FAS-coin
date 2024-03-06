@@ -8,6 +8,16 @@
   height: 100%;
   padding: 30px;
 }
+.s6main2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+}
 .icon1 {
   width: 20px;
   height: 20px;
@@ -29,6 +39,7 @@
 }
 .s6hai {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   gap: 10px;
   width: 90%;
@@ -73,6 +84,9 @@
 
 .s6data {
   max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .s6head {
   color: #f4f4f4;
@@ -88,7 +102,7 @@
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
-  line-height: 31px; /* 102.5% */
+  line-height: 40px; /* 102.5% */
 }
 .s6para {
   color: #f4f4f4;
@@ -96,7 +110,7 @@
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 .s7main {
@@ -157,6 +171,7 @@
   font-weight: 400;
   line-height: 100%; /* 30px */
   letter-spacing: 1.2px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 820px) {

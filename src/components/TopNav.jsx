@@ -2,6 +2,7 @@
 
 import '../styles/TopNav.css'
 import Logo from "../assets/FAS_logo/logo_main_wht.png"
+import { Link } from 'react-router-dom'
 
 const Topnav = () => {
 
@@ -48,10 +49,10 @@ const Topnav = () => {
                   <a className="nav-link" href="#tokenomics">Tokenomics</a>
                 </li>
               </ul>
-              <a href='#' className='rbtn'>
+              <Link to='/Presale' className='rbtn'>
 
                 <span className="text"> Buy Token</span>
-              </a>
+              </Link>
             </form>
           </div>
         </div>

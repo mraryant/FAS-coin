@@ -214,7 +214,7 @@ const Section6 = () => {
           </div>
 
         </div>
-        <div className=" ">
+        <div className="  s6main2 ">
           <div className="s6hai">
             <div>
               <img className='icon1' src={Icon1} alt="" />
@@ -229,7 +229,7 @@ const Section6 = () => {
                 </p>
                 <h5>2 : Own Blockchain Development </h5>
                 <p>
-                  • Initiating the development of FAS Coin's own blockchain for increased autonomy.
+                  • Initiating the development of FAS {"Coin's"} own blockchain for increased autonomy.
                 </p>
               </div>
             </div>
