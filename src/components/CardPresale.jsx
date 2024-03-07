@@ -26,7 +26,7 @@ const CardPresale = ({ title, duration, round, price }) => {
 
                 <div id="pricing">
                     <h1>
-                        <span style={{ fontWeight: 500, display: "flex", justifyContent: "center", fontSize: "30px", color: "white", letterSpacing: 1 }}>{price}</span>
+                        <span style={{ fontWeight: 500, display: "flex", justifyContent: "center", fontSize: "55%", color: "white", letterSpacing: 1 }}>{price}</span>
                     </h1>
                 </div>
                 <button type="submit" style={{ fontSize: "18px", width: "60%", margin: "0 auto" }} className=' rbtn s4button' id='btn1'>
