@@ -44,23 +44,27 @@ const Section4 = () => {
                   whileInView="visible"
                   variants={slideVarient}
 
-                  className="s4card">
-                  <img src={s4icon4} alt="" />
-                  <p className='s4cardhead mb-0 '>Step 1</p>
-                  <p style={{ fontSize: "18px", fontWeight: "700" }} className='s4cardpara'>
+                  className="s4card gap-4">
+                  <div className='flex align-items-center gap-3'>
+                    <img src={s4icon4} alt="" />
+                    <p className='s4cardhead mb-0 fs-3'>Step 1</p>
+                  </div>
+                  <p style={{ fontSize: "20px", fontWeight: "700" }} className='s4cardpara'>
                     Visit FASCOIN.IO and Click on {'"Buy Token"'} Button </p>
-                  <p className='s4cardpara'>Begin your journey to acquiring FAS Coin by visiting the official website at FASCOIN.IO. Once there, locate and click on the {'"Buy Token"'} button to initiate the purchase process.</p>
+                  {/* <p className='s4cardpara'>Begin your journey to acquiring FAS Coin by visiting the official website at FASCOIN.IO. Once there, locate and click on the {'"Buy Token"'} button to initiate the purchase process.</p> */}
                 </motion.div>
 
                 <motion.div
                   initial="hidden"
                   whileInView="visible"
                   variants={slideVarient}
-                  className="s4card">
-                  <img src={s4icon1} alt="" />
-                  <p className='s4cardhead mb-0 '>Step 2</p>
-                  <p style={{ fontSize: "18px", fontWeight: "700" }} className='s4cardpara'> Connect Your Wallet to Metamask and Use USDT </p>
-                  <p className='s4cardpara'> To proceed with the purchase, {"you'll"} need to connect your digital wallet to Metamask. If you {"don't"} have Metamask installed, make sure to set it up. Once connected, use the USDT (Tether) you have in your wallet to buy FAS Coin directly on Metamask.</p>
+                  className="s4card gap-4">
+                  <div className='flex align-items-center gap-3'>
+                    <img src={s4icon1} alt="" />
+                    <p className='s4cardhead mb-0 fs-3'>Step 2</p>
+                  </div>
+                  <p style={{ fontSize: "20px", fontWeight: "700" }} className='s4cardpara'> Connect Your Wallet to Metamask and Use USDT </p>
+                  {/* <p className='s4cardpara'> To proceed with the purchase, {"you'll"} need to connect your digital wallet to Metamask. If you {"don't"} have Metamask installed, make sure to set it up. Once connected, use the USDT (Tether) you have in your wallet to buy FAS Coin directly on Metamask.</p> */}
                 </motion.div>
 
               </div>
@@ -70,23 +74,27 @@ const Section4 = () => {
                   initial="hidden"
                   whileInView="visible"
                   variants={slideVarient}
-                  className="s4card">
-                  <img src={s4icon2} alt="" />
-                  <p className='s4cardhead mb-0 '>Step 3</p>
-                  <p style={{ fontSize: "18px", fontWeight: "700" }} className='s4cardpara'>Choose the Number of USDT and {'"APPROVE"'} </p>
-                  <p className='s4cardpara'>
-                    Specify the amount of USDT you wish to exchange for FAS Coin. After selecting the desired quantity, click on the {'"APPROVE"'} button to authorize the transaction. This step ensures that the smart contract can execute the purchase securely. </p>
+                  className="s4card gap-4">
+                  <div className='flex align-items-center gap-3'>
+                    <img src={s4icon2} alt="" />
+                    <p className='s4cardhead mb-0  fs-3 '>Step 3</p>
+                  </div>
+                  <p style={{ fontSize: "20px", fontWeight: "700" }} className='s4cardpara'>Choose the Number of USDT and {'"APPROVE"'} </p>
+                  {/* <p className='s4cardpara'>
+                    Specify the amount of USDT you wish to exchange for FAS Coin. After selecting the desired quantity, click on the {'"APPROVE"'} button to authorize the transaction. This step ensures that the smart contract can execute the purchase securely. </p> */}
                 </motion.div>
 
                 <motion.div
                   initial="hidden"
                   whileInView="visible"
                   variants={slideVarient}
-                  className="s4card">
-                  <img style={{ height: "50px", width: "50px" }} src={s4icon3} alt="" />
-                  <p className='s4cardhead mb-0 '>Step 4</p>
-                  <p style={{ fontSize: "18px", fontWeight: "700" }} className='s4cardpara'>Choose the Number of USDT and {'"BUY"'} Checking Transactions </p>
-                  <p className='s4cardpara'>Once the approval is successful, proceed to choose the exact quantity of USDT you want to exchange for FAS Coin. Confirm your selection and click on the {'"BUY"'} button to execute the transaction. {"It's"} important to check the transaction details and ensure accuracy before finalizing the purchase. </p>
+                  className="s4card gap-4">
+                  <div className='flex align-items-center gap-3'>
+                    <img style={{ height: "50px", width: "50px" }} src={s4icon3} alt="" />
+                    <p className='s4cardhead mb-0 fs-3 '>Step 4</p>
+                  </div>
+                  <p style={{ fontSize: "20px", fontWeight: "700" }} className='s4cardpara'>Choose the Number of USDT and {'"BUY"'} Checking Transactions </p>
+                  {/* <p className='s4cardpara'>Once the approval is successful, proceed to choose the exact quantity of USDT you want to exchange for FAS Coin. Confirm your selection and click on the {'"BUY"'} button to execute the transaction. {"It's"} important to check the transaction details and ensure accuracy before finalizing the purchase. </p> */}
                 </motion.div>
               </div>
             </div>

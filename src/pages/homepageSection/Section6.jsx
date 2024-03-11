@@ -7,7 +7,7 @@ import roadmap from '../../assets/roadmap.png'
 const Section6 = () => {
   return (
     <>
-      <div className="main6">
+      <div id='roadmap' className="main6">
         <div className='homeHead'>
           <p>Roadmap</p>
         </div>

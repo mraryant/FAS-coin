@@ -3,7 +3,7 @@ import './App.css'
 import Homepage from './pages/Homepage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Navigate } from 'react-router-dom';
-import Presale from './pages/Presale';
+// import Presale from './pages/Presale';
 function App() {
 
 
@@ -13,7 +13,6 @@ function App() {
         <Routes>
           <Route path="*" element={<Navigate to="/" />} />
           <Route path="/" element={<Homepage />} />
-          <Route path="Presale" element={<Presale />} />
         </Routes>
 
       </BrowserRouter>

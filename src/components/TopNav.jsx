@@ -37,13 +37,13 @@ const Topnav = () => {
                   <a className="nav-link" href="#about">About</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#contract">Wallet</a>
+                  <a className="nav-link" href="#usecase">Usecase</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Learn</a>
+                  <a className="nav-link" href="#roadmap">Roadmap</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#team">Team</a>
+                  <a className="nav-link text-nowrap " href="#presaleschedule-main">Presale Schedule</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#tokenomics">Tokenomics</a>
