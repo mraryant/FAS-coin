@@ -20,7 +20,7 @@ const Section5 = () => {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('0x9e3F29552c7D4651BF14bE395C68032Ef3C91901') // Replace with the text you want to copy
+    navigator.clipboard.writeText('0x84C143cAa1A98F882a5979F007BD58c39B4E7607') // Replace with the text you want to copy
       .then(() => {
         setCopied(true);
         setTimeout(() => {
@@ -33,7 +33,7 @@ const Section5 = () => {
   };
 
 
-  const text = "0x9e3F29552c7D4651BF14bE395C68032Ef3C91901"
+  const text = "0x84C143cAa1A98F882a5979F007BD58c39B4E7607"
 
   return (
     <>
@@ -153,7 +153,7 @@ const Section5 = () => {
 
             <button onClick={handleCopy}><img src={Copy} style={{ width: 25, height: 25, marginRight: 15, }} alt="" />
               Copy Address</button>
-            <a href="#"><button ><img src={bsc} style={{ width: 25, height: 25, marginRight: 15, }} alt="" />
+            <a target='blank' href="https://bscscan.com/address/0x84C143cAa1A98F882a5979F007BD58c39B4E7607"><button ><img src={bsc} style={{ width: 25, height: 25, marginRight: 15, }} alt="" />
               BSC Scan</button></a>
           </div>
           {copied && <div className="popup mt-3" style={{ color: "white", }}>Copied to clipboard!</div>}
@@ -161,7 +161,7 @@ const Section5 = () => {
         </div>
 
 
-        
+
         <div className='homeHead'>
           <p>Documentation</p>
         </div>
