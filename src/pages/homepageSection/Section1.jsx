@@ -33,7 +33,7 @@ const Section1 = () => {
 
                   <span className="text">Buy Tokens</span>
                 </Link>
-                <a to='/Presale' target='_blank' className='rbtn'>
+                <a href='https://fas-coin.gitbook.io/fas-whitepaper' target='blank' className='rbtn'>
 
                   <span className="text">Whitepaper</span>
                 </a>

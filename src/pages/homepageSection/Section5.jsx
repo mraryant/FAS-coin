@@ -20,7 +20,7 @@ const Section5 = () => {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('0x84C143cAa1A98F882a5979F007BD58c39B4E7607') // Replace with the text you want to copy
+    navigator.clipboard.writeText('0x2BBcd54195348384362f569111bE2980Fd6a7Bc0') // Replace with the text you want to copy
       .then(() => {
         setCopied(true);
         setTimeout(() => {
@@ -33,7 +33,7 @@ const Section5 = () => {
   };
 
 
-  const text = "0x84C143cAa1A98F882a5979F007BD58c39B4E7607"
+  const text = "0x2BBcd54195348384362f569111bE2980Fd6a7Bc0"
 
   return (
     <>
@@ -153,7 +153,7 @@ const Section5 = () => {
 
             <button onClick={handleCopy}><img src={Copy} style={{ width: 25, height: 25, marginRight: 15, }} alt="" />
               Copy Address</button>
-            <a target='blank' href="https://bscscan.com/address/0x84C143cAa1A98F882a5979F007BD58c39B4E7607"><button ><img src={bsc} style={{ width: 25, height: 25, marginRight: 15, }} alt="" />
+            <a target='blank' href="https://bscscan.com/address/0x2bbcd54195348384362f569111be2980fd6a7bc0"><button ><img src={bsc} style={{ width: 25, height: 25, marginRight: 15, }} alt="" />
               BSC Scan</button></a>
           </div>
           {copied && <div className="popup mt-3" style={{ color: "white", }}>Copied to clipboard!</div>}
@@ -169,9 +169,9 @@ const Section5 = () => {
           <div className="s7left">
             <img className='s7img' src={Logo2} alt="" />
             <p className='s7head'>Whitepaper</p>
-            <a href="#" target='_blank' className='rbtn'>
+            <a href="https://fas-coin.gitbook.io/fas-whitepaper" target='blank' className='rbtn'>
 
-              <span className="text">Download</span>
+              <span className="text">View</span>
             </a>
           </div>
           <div className="s7right">
