@@ -36,7 +36,7 @@ const Footer = () => {
 											<li><a href="#usecase" style={{ textDecoration: 'none' }} className="py-1 d-block">Usecase</a></li>
 										</ul>
 									</div>
-									<div className="r1 col-md-3 mb-md-0 mb-4 border-left">
+									{/* <div className="r1 col-md-3 mb-md-0 mb-4 border-left">
 										<h2 className="footer-heading">About</h2>
 										<ul className="list-unstyled">
 											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Tokens</a></li>
@@ -45,7 +45,7 @@ const Footer = () => {
 
 											<li><a href="#" style={{ textDecoration: 'none' }} className="py-1 d-block">Blog</a></li>
 										</ul>
-									</div>
+									</div> */}
 									<div className="r1 col-md-3 mb-md-0 mb-4 border-left">
 										<h2 className="footer-heading">Privacy</h2>
 										<ul className="list-unstyled">

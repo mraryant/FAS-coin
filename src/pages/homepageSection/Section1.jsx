@@ -1,7 +1,8 @@
 
 import '../../styles/Section1.css'
 import tcfback from '../../assets/tcfvideo1.mp4'
-import { Link } from 'react-router-dom'
+
+
 const Section1 = () => {
 
 
@@ -29,10 +30,10 @@ const Section1 = () => {
               <p className='s1para' >FAS Coin is a revolutionary digital asset on the BEP-20 network, bridging blockchain and financial accounting principles to create a transparent and standardized financial ecosystem in the crypto space. Addressing challenges of reporting and transparency, FAS Coin integrates established accounting standards into the blockchain, ensuring accuracy and paving the way for broader cryptocurrency acceptance in mainstream finance.</p>
               <div className='know'>
 
-                <Link to='/Presale' className='rbtn'>
+                <a href='http://presale.fascoin.io/' target='blank' className='rbtn'>
 
                   <span className="text">Buy Tokens</span>
-                </Link>
+                </a>
                 <a href='https://fas-coin.gitbook.io/fas-whitepaper' target='blank' className='rbtn'>
 
                   <span className="text">Whitepaper</span>

@@ -35,6 +35,8 @@ const PresaleSchedule = () => {
                         round="Round 1"
                         duration="27 Feb - 10 March "
                         price="Price : 0.0011$"
+                        isbuy="BUY"
+                        link="http://presale.fascoin.io/"
 
                     />
                     <CardPresale
@@ -42,12 +44,16 @@ const PresaleSchedule = () => {
                         round="Round 2"
                         duration="11 mar - 17 Mar"
                         price="Price : 0.0033$"
+                        isbuy="Comming soon..."
+                        link=" "
                     />
                     <CardPresale
                         title="FAS Coin"
                         round="Round 3"
                         duration="18 Mar - 24 Mar  "
                         price="Price : 0.0045$"
+                        isbuy="Comming soon..."
+                        link=" "
                     />
 
                     <CardPresale
@@ -55,12 +61,16 @@ const PresaleSchedule = () => {
                         round="Round 4"
                         duration="25 Mar - 31 Mar "
                         price="Price :  0.0075$"
+                        isbuy="Comming soon..."
+                        link=" "
                     />
                     <CardPresale
                         title="FAS Coin"
                         round="Round 5"
                         duration=""
                         price="Listing..."
+                        isbuy="Comming soon..."
+                        link=" "
                     />
                 </div>
 

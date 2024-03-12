@@ -178,7 +178,7 @@ const Section5 = () => {
             <img className='s7img1' src={presale} alt="" />
             <h5 className=" text-white ">Bonus on each Referral</h5>
             <p className='s7head'>Presale</p>
-            <a href='#' className='rbtn'>
+            <a href='http://presale.fascoin.io/' target='blank' className='rbtn'>
 
               <span className="text">Buy Token</span>
             </a>

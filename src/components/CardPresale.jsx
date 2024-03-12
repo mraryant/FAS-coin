@@ -2,7 +2,7 @@
 import PropTypes from "prop-types";
 import "../styles/CardPresale.css"
 import { motion } from "framer-motion"
-const CardPresale = ({ title, duration, round, price }) => {
+const CardPresale = ({ title, duration, round, price, isbuy, link }) => {
     return (
         <>
             <motion.div
@@ -29,8 +29,10 @@ const CardPresale = ({ title, duration, round, price }) => {
                         <span style={{ fontWeight: 500, display: "flex", justifyContent: "center", fontSize: "55%", color: "white", letterSpacing: 1 }}>{price}</span>
                     </h1>
                 </div>
-                <button type="submit" style={{ fontSize: "18px", width: "60%", margin: "0 auto" }} className=' rbtn s4button' id='btn1'>
-                    BUY
+                <button type="submit" style={{ fontSize: "18px", width: "100%", margin: "0 auto" }} className=' rbtn s4button' id='btn1'
+                    onClick={() => window.open(link , '_blank')}
+                >
+                    {isbuy}
                 </button>
 
             </motion.div>
@@ -43,6 +45,8 @@ CardPresale.propTypes = {
     price: PropTypes.string.isRequired,
     round: PropTypes.string.isRequired,
     duration: PropTypes.string.isRequired,
+    isbuy: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
 };
 export default CardPresale
 
