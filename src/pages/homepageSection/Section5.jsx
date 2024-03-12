@@ -52,42 +52,46 @@ const Section5 = () => {
           </div>
           <div className="s5right">
             <div className="s5p1">
-              <div style={{ display: "flex", flexDirection: "row", gap: 20, alignItems: "center", justifyContent: "space-around", }}>
-                <img src={sign1} alt="" />
-                <p style={{ marginBottom: 0, color: "white", fontSize: 18, fontWeight: 600 }}>Investor</p>
-              </div>
-              <p style={{ marginBottom: 0, color: "white", fontSize: 16, fontWeight: 600 }}>20%</p>
-            </div>
-            <div className="s5p1">
 
               <div style={{ display: "flex", flexDirection: "row", gap: 20, alignItems: "center", justifyContent: "space-around", }}>
                 <img src={sign2} alt="" />
                 <p style={{ marginBottom: 0, color: "white", fontSize: 18, fontWeight: 600 }}>Community</p>
               </div>
-              <p style={{ marginBottom: 0, color: "white", fontSize: 16, fontWeight: 600 }}>40%</p>
+              <p style={{ marginBottom: 0, color: "white", fontSize: 16, fontWeight: 600 }}>50%</p>
             </div>
-
             <div className="s5p1">
               <div style={{ display: "flex", flexDirection: "row", gap: 20, alignItems: "center", justifyContent: "space-around", }}>
                 <img src={sign4} alt="" />
-                <p style={{ marginBottom: 0, color: "white", fontSize: 18, fontWeight: 600 }}>Burning</p>
+                <p style={{ marginBottom: 0, color: "white", fontSize: 18, fontWeight: 600 }}>Founder </p>
               </div>
-              <p style={{ marginBottom: 0, color: "white", fontSize: 16, fontWeight: 600 }}>20%</p>
+              <p style={{ marginBottom: 0, color: "white", fontSize: 16, fontWeight: 600 }}>15%</p>
             </div>
             <div className="s5p1">
               <div style={{ display: "flex", flexDirection: "row", gap: 20, alignItems: "center", justifyContent: "space-around", }}>
                 <img src={sign3} alt="" />
-                <p style={{ marginBottom: 0, color: "white", fontSize: 18, fontWeight: 600 }}>Founder And Development</p>
+                <p style={{ marginBottom: 0, color: "white", fontSize: 18, fontWeight: 600 }}>Investor </p>
               </div>
               <p style={{ marginBottom: 0, color: "white", fontSize: 16, fontWeight: 600 }}>15%</p>
             </div>
 
             <div className="s5p1">
               <div style={{ display: "flex", flexDirection: "row", gap: 20, alignItems: "center", justifyContent: "space-around", }}>
+                <img src={sign1} alt="" />
+                <p style={{ marginBottom: 0, color: "white", fontSize: 18, fontWeight: 600 }}>Advisor </p>
+              </div>
+              <p style={{ marginBottom: 0, color: "white", fontSize: 16, fontWeight: 600 }}>10%</p>
+            </div>
+
+
+
+
+
+            <div className="s5p1">
+              <div style={{ display: "flex", flexDirection: "row", gap: 20, alignItems: "center", justifyContent: "space-around", }}>
                 <img src={sign5} alt="" />
                 <p style={{ marginBottom: 0, color: "white", fontSize: 18, fontWeight: 600 }}>Treasury</p>
               </div>
-              <p style={{ marginBottom: 0, color: "white", fontSize: 16, fontWeight: 600 }}>05%</p>
+              <p style={{ marginBottom: 0, color: "white", fontSize: 16, fontWeight: 600 }}>10%</p>
             </div>
 
           </div>
@@ -176,7 +180,7 @@ const Section5 = () => {
           </div>
           <div className="s7right">
             <img className='s7img1' src={presale} alt="" />
-            <h5 className=" text-white ">Bonus on each Referral</h5>
+            <h5 className=" text-white text-center "> 10% FAS coin Bonus on each Referral</h5>
             <p className='s7head'>Presale</p>
             <a href='http://presale.fascoin.io/' target='blank' className='rbtn'>
 

@@ -13,7 +13,7 @@ const Section2 = () => {
         <div id="ref-left">
           <div>
             <h1>Refer And Earn</h1>
-            <p>Buy FAS Coin and Get 10% {"' F '"} on your Referral Address.</p>
+            <p>Buy FAS Coin and Get 10% {"' FAS coins '"} on your Referral Address.</p>
           </div>
         </div>
         <div id="ref-right">

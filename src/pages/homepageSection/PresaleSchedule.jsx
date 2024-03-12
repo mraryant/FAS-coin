@@ -35,8 +35,8 @@ const PresaleSchedule = () => {
                         round="Round 1"
                         duration="27 Feb - 10 March "
                         price="Price : 0.0011$"
-                        isbuy="BUY"
-                        link="http://presale.fascoin.io/"
+                        isbuy="Total funds Rised - 40,000$"
+                        link=" "
 
                     />
                     <CardPresale
@@ -44,8 +44,8 @@ const PresaleSchedule = () => {
                         round="Round 2"
                         duration="11 mar - 17 Mar"
                         price="Price : 0.0033$"
-                        isbuy="Comming soon..."
-                        link=" "
+                        isbuy="Buy Token"
+                        link="http://presale.fascoin.io/"
                     />
                     <CardPresale
                         title="FAS Coin"

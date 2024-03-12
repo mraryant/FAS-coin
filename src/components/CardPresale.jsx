@@ -29,8 +29,8 @@ const CardPresale = ({ title, duration, round, price, isbuy, link }) => {
                         <span style={{ fontWeight: 500, display: "flex", justifyContent: "center", fontSize: "55%", color: "white", letterSpacing: 1 }}>{price}</span>
                     </h1>
                 </div>
-                <button type="submit" style={{ fontSize: "18px", width: "100%", margin: "0 auto" }} className=' rbtn s4button' id='btn1'
-                    onClick={() => window.open(link , '_blank')}
+                <button type="submit" style={{ fontSize: "16px", width: "100%", margin: "0 auto" }} className=' rbtn s4button' id='btn1'
+                    onClick={() => window.open(link, '_blank')}
                 >
                     {isbuy}
                 </button>
