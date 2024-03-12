@@ -180,7 +180,7 @@ const Section5 = () => {
           </div>
           <div className="s7right">
             <img className='s7img1' src={presale} alt="" />
-            <h5 className=" text-white text-center "> 10% FAS coin Bonus on each Referral</h5>
+            <h5 className=" text-white text-center "> GET 10% REFERRAL BONUS ON FAS COINS</h5>
             <p className='s7head'>Presale</p>
             <a href='http://presale.fascoin.io/' target='blank' className='rbtn'>
 
