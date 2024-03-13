@@ -35,7 +35,7 @@ const PresaleSchedule = () => {
                         round="Round 1"
                         duration="27 Feb - 10 March "
                         price="Price : 0.0011$"
-                        isbuy="Total funds Rised - 40,000$"
+                        isbuy="Total funds Rised - 42,765$"
                         link=" "
 
                     />

@@ -62,7 +62,7 @@ const Section5 = () => {
             <div className="s5p1">
               <div style={{ display: "flex", flexDirection: "row", gap: 20, alignItems: "center", justifyContent: "space-around", }}>
                 <img src={sign4} alt="" />
-                <p style={{ marginBottom: 0, color: "white", fontSize: 18, fontWeight: 600 }}>Founder </p>
+                <p style={{ marginBottom: 0, color: "white", fontSize: 18, fontWeight: 600 }}>Founder And Development </p>
               </div>
               <p style={{ marginBottom: 0, color: "white", fontSize: 16, fontWeight: 600 }}>15%</p>
             </div>
@@ -77,7 +77,7 @@ const Section5 = () => {
             <div className="s5p1">
               <div style={{ display: "flex", flexDirection: "row", gap: 20, alignItems: "center", justifyContent: "space-around", }}>
                 <img src={sign1} alt="" />
-                <p style={{ marginBottom: 0, color: "white", fontSize: 18, fontWeight: 600 }}>Advisor </p>
+                <p style={{ marginBottom: 0, color: "white", fontSize: 18, fontWeight: 600 }}>Burning </p>
               </div>
               <p style={{ marginBottom: 0, color: "white", fontSize: 16, fontWeight: 600 }}>10%</p>
             </div>

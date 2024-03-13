@@ -9,6 +9,7 @@ import Section5 from './homepageSection/Section5'
 import Footer from '../components/Footer'
 import Section6 from './homepageSection/Section6'
 import PresaleSchedule from './homepageSection/PresaleSchedule'
+import Parteners from './homepageSection/Parteners'
 // import Presale from './Presale'
 // import Usecase from './homepageSection/Usecase'
 
@@ -16,7 +17,7 @@ const Homepage = () => {
   return (
     <>
       <Topnav />
-      
+
       <Section1 />
       <Section2 />
       {/* <Usecase /> */}
@@ -24,6 +25,7 @@ const Homepage = () => {
       <Section4 />
       <Section6 />
       <PresaleSchedule />
+      <Parteners />
       <Section5 />
       <Footer />
     </>
