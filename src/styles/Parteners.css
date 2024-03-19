@@ -1,7 +1,7 @@
 #parteners-main {
   display: flex;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 100%;
   /* overflow: auto; */
   /* background-color: rgb(211, 210, 209); */
   padding: 5vmax 0 5vmax 0;
