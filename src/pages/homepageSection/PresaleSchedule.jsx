@@ -34,8 +34,8 @@ const PresaleSchedule = () => {
                         title="FAS Coin"
                         round="Round 1"
                         duration="27 Feb - 10 March "
-                        price="Price : 0.0011$"
-                        isbuy="Total funds Rised - 42,765$"
+                        price="Price : $0.0011 "
+                        isbuy="Total funds Raised - 42,765$"
                         link=" "
 
                     />
@@ -43,35 +43,44 @@ const PresaleSchedule = () => {
                         title="FAS Coin"
                         round="Round 2"
                         duration="11 mar - 17 Mar"
-                        price="Price : 0.0033$"
-                        isbuy="Total funds Rised - 78332$"
+                        price="Price : $0.0033 "
+                        isbuy="Total funds Raised - 78332$"
                         link=""
                     />
                     <CardPresale
                         title="FAS Coin"
                         round="Round 3"
                         duration="18 Mar - 24 Mar  "
-                        price="Price : 0.0045$"
-                        isbuy="Buy Now"
-                        link="http://presale.fascoin.io/ "
+                        price="Price : $0.0045 "
+                        isbuy="Total funds Raised - 93489$"
+                        link=" "
                     />
 
                     <CardPresale
                         title="FAS Coin"
                         round="Round 4"
-                        duration="25 Mar - 31 Mar "
-                        price="Price :  0.0075$"
-                        isbuy="Comming soon..."
+                        duration="25 Mar - 31 Apr "
+                        price="Price :  $0.0075"
+                        isbuy="Total funds Raised - 132480$"
                         link=" "
                     />
                     <CardPresale
                         title="FAS Coin"
                         round="Round 5"
-                        duration=""
-                        price="Listing..."
-                        isbuy="Comming soon..."
-                        link=" "
+                        duration="May 1- Jun 25"
+                        price=" Price : $0.0090"
+                        isbuy="Buy Now"
+                        link="http://presale.fascoin.io/ "
                     />
+                    <CardPresale
+                        title="FAS Coin"
+                        round="Round 6"
+                        duration="Jun 26"
+                        price="Coin Listing"
+                        isbuy="Coming soon ..."
+                        link="  "
+                    />
+                     
                 </div>
 
             </div>
